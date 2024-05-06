@@ -15,21 +15,21 @@
   /* ============================================================= */
   /* Primary Color
   ================================================================ */
-  --cd-primary-color:                    #DAF1DE;
+  --cd-primary-color:                    #085D37;
   --cd-primary-text-color:               #fff;
 
   /* ============================================================= */
   /* Secondary Color
   ================================================================ */
-  --cd-secondary-color:                  #163832;
+  --cd-secondary-color:                  #13452F;
   --cd-secondary-text-color:             #fff;
 
   /* ============================================================= */
   /* Backgrounds
   ================================================================ */
-  --cd-body-background-color:            #235347;
-  --cd-content-background-color:         #8EB69B;
-  --cd-faded-background-color:           #235347;
+  --cd-body-background-color:            #0E5233;
+  --cd-content-background-color:         #096D40;
+  --cd-faded-background-color:           #0E5233;
 
   /* Background Extras */
   --cd-body-background-image:              url();
@@ -37,8 +37,8 @@
   /* ============================================================= */
   /* Text
   ================================================================ */
-  --cd-body-text-color:                  #051F20;
-  --cd-faded-text-color:                 #0B2B26;
+  --cd-body-text-color:                  #1D2E28;
+  --cd-faded-text-color:                 #17392B;
 
   /* ============================================================= */
   /* Borders
@@ -51,7 +51,7 @@
   /* ============================================================= */
   /* Navbar
   ================================================================ */
-  --cd-navbar-background-color:          #051F20;
+  --cd-navbar-background-color:          #1D2E28;
   --cd-navbar-brand-color:               var(--cd-primary-color);
   --cd-navbar-brand-color-hover:         var(--cd-secondary-color);
   --cd-navbar-text-color:                var(--cd-content-background-color);
