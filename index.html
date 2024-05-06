@@ -119,40 +119,41 @@
           <h1> Welcome to my adopt site! </h1>
           <em> To request an adopt, use the link above! </em>
           <hr>
-          <b> My FlatSales range from 3-10$ USD (Cashapp or Paypal)</b>
-          <b> OTA Offers: Art, USD, Customs, Ocs, Discord Nitro ($10), DA Points (1$=80pts) </b>
-          <b> Ill look at other offers too, so feel free to offer away! </b>
-          <hr>
-          <h1>AB Options:</h1>
-          <b>Option 1: $15 (Added Headshot)</b>
-          <b>Option 2: $20 (Added Icon)</b>
-          <b>Option 3: $25 (Prizes from 1 & 2)</b>
-          <b>Option 4: Ticket (Use your "KhaoticKoda AB Ticket" One Use!, Gives you adopt instantly)</b>
-  <hr>
-  <h1>IMPORTANT! PLS READ</h1>
-  <p>This site will be edited at the 1st(ish) of every month! this means there will be closed adopts listed! please pay attention to that.</p>
-  <em>This also means that if you offer and i do not see before changing, the number could get messed up! so make sure you remember or ss the adopt or re check for its new number and offer again!</em>
-</div>
-
-i would use something like this
-```html
 <ul class="row no-gutters nav nav-pills mb-3" id="pills-tab" role="tablist">
   <li class="col p-1 nav-item" role="presentation">
-    <button class="nav-link btn btn-primary d-block" id="pills-anatomy-tab" data-toggle="pill" data-target="#pills-anatomy" type="button" role="tab" aria-controls="pills-anatomy" aria-selected="true">Anatomy</button>
+    <button class="nav-link btn btn-primary w-100" id="pills-autobuy-tab" data-toggle="pill" data-target="#pills-autobuy" type="button" role="tab" aria-controls="pills-autobuy" aria-selected="true">Autobuy Options</button>
   </li> 
                
                 
   <li class="col p-1 nav-item" role="presentation">
-    <button class="nav-link btn btn-primary d-block" id="pills-diet-tab" data-toggle="pill" data-target="#pills-diet" type="button" role="tab" aria-controls="pills-diet" aria-selected="false">Diet</button>
+    <button class="nav-link btn btn-primary w-100" id="pills-info-tab" data-toggle="pill" data-target="#pills-info" type="button" role="tab" aria-controls="pills-info" aria-selected="false">Payment Options</button>
   </li>              
                    
   <li class="col p-1 nav-item" role="presentation">
-    <button class="nav-link btn btn-primary d-block" id="pills-lifecycle-tab" data-toggle="pill" data-target="#pills-lifecycle" type="button" role="tab" aria-controls="pills-lifecycle" aria-selected="false">LifeCycle</button>
+    <button class="nav-link btn btn-primary w-100" id="pills-rules-tab" data-toggle="pill" data-target="#pills-rules" type="button" role="tab" aria-controls="pills-rules" aria-selected="false">Important</button>
   </li>
 </ul>
-```
 
-
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-autobuy" role="tabpanel" aria-labelledby="pills-autobuy-tab">
+    <h1>AB Options:</h1>
+          <b>Option 1: $15 (Added Headshot)</b>
+          <b>Option 2: $20 (Added Icon)</b>
+          <b>Option 3: $25 (Prizes from 1 & 2)</b>
+          <b>Option 4: Ticket (Use your "KhaoticKoda AB Ticket" One Use!, Gives you adopt instantly)</b>
+  </div>
+  <div class="tab-pane fade" id="pills-info" role="tabpanel" aria-labelledby="pills-info-tab">
+     <h1>Payment / Misc Info:</h1>
+          <b> My FlatSales range from 3-10$ USD (Cashapp or Paypal)</b>
+          <b> OTA Offers: Art, USD, Customs, Ocs, Discord Nitro ($10), DA Points (1$=80pts) </b>
+          <b> Ill look at other offers too, so feel free to offer away! </b>
+  </div>
+  <div class="tab-pane fade" id="pills-rules" role="tabpanel" aria-labelledby="pills-rules-tab">
+    <h1>IMPORTANT! PLS READ</h1>
+  <p>This site will be edited at the 1st(ish) of every month! this means there will be closed adopts listed! please pay attention to that.</p>
+  <em>This also means that if you offer and i do not see before changing, the number could get messed up! so make sure you remember or ss the adopt or re check for its new number and offer again!</em>
+  </div>
+</div>
     
     <div class="card p-4 mb-4" style="display:none;" id="filter-buttons">
       <ul class="row no-gutters list list-unstyled m-n2"></ul>
