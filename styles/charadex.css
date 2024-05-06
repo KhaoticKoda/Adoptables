@@ -15,7 +15,7 @@
   /* ============================================================= */
   /* Primary Color
   ================================================================ */
-  --cd-primary-color:                    #8EB69B;
+  --cd-primary-color:                    #DAF1DE;
   --cd-primary-text-color:               #fff;
 
   /* ============================================================= */
@@ -28,7 +28,7 @@
   /* Backgrounds
   ================================================================ */
   --cd-body-background-color:            #235347;
-  --cd-content-background-color:         #DAF1DE;
+  --cd-content-background-color:         #8EB69B;
   --cd-faded-background-color:           #235347;
 
   /* Background Extras */
